@@ -139,6 +139,10 @@ dd { margin: 6px 0 0; font-size: 18px; font-weight: 900; overflow-wrap: anywhere
 .footer-credit { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
 .cronos-credit { display: flex; gap: 8px; align-items: center; }
 .cronos-credit img { width: 88px; height: auto; }
+.footer-verification { display: flex; justify-content: center; padding-block: 18px 24px; border-top: 1px solid #41516a; }
+.silex-verification { display: inline-flex; align-items: center; gap: 12px; max-width: 100%; padding: 9px 16px; border: 1px solid #42628c; border-radius: 12px; background: #1b3153; color: var(--white); font-size: 14px; font-weight: 800; text-decoration: none; }
+.silex-verification:hover { border-color: #8abaff; background: #213d65; }
+.silex-verification img { width: 42px; height: 42px; flex: 0 0 42px; object-fit: contain; }
 @media (min-width: 761px) and (max-width: 1000px) { .cols-4, .cols-5 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hero-grid { gap: 32px; } }
 @media (max-width: 760px) {
   .container { width: calc(100% - 36px); }
